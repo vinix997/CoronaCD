@@ -4,18 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IndoDetailActivity">
+    tools:context=".ui.IndoDetailActivity">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <ProgressBar
-        android:id="@+id/progressBar_IndoDetail"
-        style="?android:progressBarStyle"
-        android:layout_width="100dp"
 
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"></ProgressBar>
+        <ProgressBar
+            android:id="@+id/progressBar_IndoDetail"
+            style="?android:progressBarStyle"
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"></ProgressBar>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_detail_indo"

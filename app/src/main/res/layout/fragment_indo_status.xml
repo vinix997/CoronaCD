@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IndoStatusFragment">
+    tools:context=".ui.IndoStatusFragment">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
@@ -23,9 +23,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.058"
+            app:tabGravity="fill"
             app:tabMaxWidth="0dp"
-            app:tabMode="fixed"
-            app:tabGravity="fill">
+            app:tabMode="fixed">
 
             >
         </com.google.android.material.tabs.TabLayout>

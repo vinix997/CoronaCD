@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IndoFragment">
+    tools:context=".ui.IndoFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -18,8 +18,7 @@
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:visibility="gone"
-            ></ProgressBar>
+            android:visibility="gone"></ProgressBar>
         <!-- TODO: Update blank fragment layout -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_indonesia"
@@ -32,17 +31,17 @@
 
         <Button
             android:id="@+id/btn_detail"
+            style="button"
             android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="75dp"
-            android:layout_height="wrap_content"
-            android:background="@color/cardview_dark_background"
             android:layout_marginTop="200dp"
-            android:textColor="#fff"
-            style="button"
-            android:text="Details">
+            android:layout_marginBottom="75dp"
+            android:background="@color/cardview_dark_background"
+            android:text="Details"
+            android:textColor="#fff">
 
         </Button>
     </RelativeLayout>
